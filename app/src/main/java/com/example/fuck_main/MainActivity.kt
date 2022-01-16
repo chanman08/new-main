@@ -264,7 +264,7 @@ class MainActivity : AppCompatActivity(),OnMapReadyCallback {
                                 }
                             }
                         db.collection("stations")
-                            .document("dummyLine")
+                            .document("nagakurasen_up_805")
                             .get()
                             .addOnCompleteListener { task ->
                                 if (task.isSuccessful) {
